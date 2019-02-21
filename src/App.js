@@ -6,7 +6,7 @@ import './App.scss'
 class App extends Component {
   render () {
     return (
-      <div className=''>
+      <div className='p-3'>
         <Editor />
       </div>
     )
