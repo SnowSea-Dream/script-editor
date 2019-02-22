@@ -1,5 +1,5 @@
 import React from 'react'
-import { Editor, EditorState, Modifier, SelectionState } from 'draft-js'
+import { Editor, EditorState, Modifier } from 'draft-js'
 
 import './styles.scss'
 
@@ -70,7 +70,6 @@ export default class MyEditor extends React.Component {
   }
 
   onChange = editorState => {
-    const contentState = editorState.getCurrentContent()
     this.setState({ editorState })
   }
 
